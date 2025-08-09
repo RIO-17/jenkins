@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -y docker-ce-cli
 
 USER jenkins
 
+
 # Install Blue Ocean 1.27.21 and Docker Workflow
 RUN jenkins-plugin-cli --plugins \
       blueocean:1.27.21 \
